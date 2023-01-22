@@ -1,0 +1,169 @@
+
+@font-face{
+    font-weight:400;
+    font-family:JosefinSans;
+    font-style:normal;
+    font-display:swap;
+    src: url(../font/josefin-sans.woff2);
+}
+
+body {
+    background-color: #1F2022;
+    width: 100vw;
+    height: 100vh;
+    padding-left: 7%;
+    padding-right: 7%;
+
+    font-family: JosefinSans;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+height: 15%;
+align-items: center;
+justify-items: stretch;
+
+}
+.header-logo {
+    font-weight: 700;
+    font-size: 200%;
+    color: #EEEEEE;
+    margin-left: 0;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+
+
+}
+
+a {
+    text-decoration-line: none;
+    font-weight: 700;
+    font-size: 120%;
+    
+    color: #EEEEEE;
+}
+
+a:hover {
+    color: #00ADB5;
+}
+
+.button {
+    display: flex;
+    justify-content: end;
+}
+.button-call {
+    width: 162px;
+height: 50px;
+border-radius: 3px;
+font-weight: 700;
+line-height: 120%;
+
+background: #EEEEEE;
+color: #000000;
+}
+
+.poster {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 65% 35%;
+background-image: url(../assets/images/back.png);
+}
+
+.poster-pro{
+    grid-column: 1/2;
+grid-row: 1/2;
+
+}
+
+.poster-pro_ellips {
+    margin-top: 60vh;
+    margin-left: -2%;
+}
+
+.poster-pro_pro {
+    margin-top: -2%;
+font-weight: 800;
+font-size: 170%;
+letter-spacing: 0.04em;
+
+color: #00ADB5;
+}
+
+.poster-text {
+    grid-column: 2/3;
+grid-row: 1/2;
+padding-left: 20%;
+}
+
+.poster-text_p {
+    margin-top: 20vh;
+    font-weight: 500;
+font-size: 130%;
+letter-spacing: 0.04em;
+
+color: #EEEEEE;
+}
+
+.poster-text_h1 {
+    margin: 0;
+    font-weight: 800;
+font-size: 600%;
+
+color: #00ADB5;
+}
+
+.poster-text_text {
+    width: 100%;
+font-weight: 400;
+font-size: 100%;
+line-height: 5vh;
+
+letter-spacing: 0.04em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+.poster-take {
+    display: flex;
+    align-items: flex-end;
+}
+
+.poster-take_line {
+    width: 6%;
+margin-bottom: 11%;
+border: 3px solid #00ADB5;
+}
+
+.poster-take_text {
+    font-weight: 800;
+font-size: 150%;
+line-height: 40px;
+
+color: #EEEEEE;
+}
+
+.poster-photo {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.poster-photo_h2 {
+    font-weight: 700;
+font-size: 170%;
+
+color: #FFFFFF;
+}
+
+.poster-photo_grid {
+    display: grid;
+    height: 80%;
+    grid-template-columns: 1fr 1fr 21%;
+    grid-gap: 2.75vw;
+
+}
